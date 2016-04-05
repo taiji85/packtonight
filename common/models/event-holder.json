@@ -1,0 +1,20 @@
+{
+  "name": "EventHolder",
+  "plural": "EventHolders",
+  "base": "People",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "events": {
+      "type": "hasMany",
+      "model": "Event",
+      "foreignKey": "ownerId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -31,5 +31,25 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "People": {
+    "dataSource": "mysqlDs",
+    "public": false
+  },
+  "EventHolder": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "Customer": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "Group": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "Event": {
+    "dataSource": "mysqlDs",
+    "public": true
   }
 }

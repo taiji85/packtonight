@@ -1,0 +1,35 @@
+{
+  "name": "Event",
+  "plural": "Events",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ownerId": {
+      "type": "number",
+      "required": true
+    },
+    "eventName": {
+      "type": "string",
+      "required": true
+    },
+    "created": {
+      "type": "date"
+    },
+    "lastUpdated": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
+    },
+    "groupId": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

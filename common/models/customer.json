@@ -1,0 +1,22 @@
+{
+  "name": "Customer",
+  "plural": "Customers",
+  "base": "People",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "paid": "boolean"
+  },
+  "validations": [],
+  "relations": {
+    "groups": {
+      "type": "hasMany",
+      "model": "Group",
+      "foreignKey": "ownerId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

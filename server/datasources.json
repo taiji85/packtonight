@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "p2night",
+    "username": "root",
+    "password": "wnsdnjs2",
+    "name": "mysqlDs",
+    "connector": "mysql"
   }
 }
